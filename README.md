@@ -27,18 +27,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `eqArrays`: if arra1 === arr2, return true else false
-* `middle`: return items in middle position
-* `assertArraysEqual`: if arra1 === arr2, return msg for passed else msg for failed
-* `assertEqual`: if item1 === item2, return true else false
-* `assertObjectsEqual`: if obj1 === obj2, return msg for passed else msg for failed
-* `countLetters`: return the occurrence of each letter in a string
-* `countOnly`: return the occurrence of required letters in a string
-* `eqObjects`: if obj1 === obj2, return true else false
-* `findKey`: if key is defined within obj, return true else false
-* `findKeybyValue`: return key by value
-* `flatten`: flatten one layer deeper within array
-* `letterPositions`: return the positions of each letter in a sentence
-* `map`: similar to arr.map function
-* `takeUntil`: loop until callback is true
-* `without`: filter out wot from arr
+* `head`: Gets the first element of array.
+* `tail`: Gets all but the first element of array.
+* `eqArrays`: Determines if two arrays are equivalent.
+* `middle`: Finds the middle one or two numbers of the array.
+* `assertArraysEqual`: Returns a sentence to state if two arrays are equivalent.
+* `assertEqual`: Returns a sentence to state if two values are equivalent.
+* `assertObjectsEqual`: Returns a sentence to state if two objects are equivalent.
+* `countLetters`: Returns the number of occurrence of each element in a string.
+* `countOnly`: Returns the number of occurrence of each required element in a string.
+* `eqObjects`: Determines if two objects are equivalent.
+* `findKey`: Returns the key of the first element the callback returns truthy for.
+* `findKeybyValue`: Returns the key provided with the value.
+* `flatten`: Returns an array flattened into single-level.
+* `letterPositions`: Returns the positions of each element in a sentence.
+* `map`: Returns an array containing results of calling the callback on each element.
+* `takeUntil`: Returns an array of the elements until the callback returns truthy. 
+* `without`: Returns an array excluding all given values.
